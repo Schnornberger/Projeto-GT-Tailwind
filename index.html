@@ -7,26 +7,49 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <header class="bg-red-200">
-        <nav class="flex p-8 gap-5">
-            <div class="flex gap-2">
-                <img src="./img/fxemoji_dog.jpg" alt="logo"><img src="./img/Pawstore.svg" alt="">
+    <header class="bg-amber-50 top-[47px]">
+        <nav class="flex items-center justify-between p-8 pl-29">
+            <!-- Logo e Nome -->
+            <div class="flex items-center gap-3">
+                <img class="w-[25px] h-[25px] hover:scale-150 transition-transform duration-600" src="./img/fxemoji_dog.jpg" alt="logo">
+                <p class="text-sm font-bold font-poppins">Pawstore</p>
             </div>
-            <ul class="flex gap-10">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Breeds</a></li>
-                <li><a href="#">Accessories</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contant</a></li>
-            </ul>
-            <form>
-                <input type="text">
-                <button><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
+
+            <!-- Links de Navegação e Barra de Pesquisa -->
+            <div class="flex items-center gap-10 pr-40">
+                <ul class="flex gap-10">
+                    <li><a href="#" class="font-bold hover:border-b-4 hover:border-amber-600 transition-all duration-500">Home</a></li>
+                    <li><a href="#" class="hover:border-b-4 hover:border-amber-600 transition-all duration-500">Breeds</a></li>
+                    <li><a href="#" class="hover:border-b-4 hover:border-amber-600 transition-all duration-500">Accessories</a></li>
+                    <li><a href="#" class="hover:border-b-4 hover:border-amber-600 transition-all duration-500">Blog</a></li>
+                    <li><a href="#" class="hover:border-b-4 hover:border-amber-600 transition-all duration-500">Contact</a></li>
+                </ul>
+                <div class="relative flex items-center">
+                    <input type="text" class="bg-white w-[276px] h-[50px] pr-10 pl-3 rounded-[20px]" placeholder="Search for pets...">
+                    <button class="absolute inset-y-0 right-0 flex items-center pr-3 focus:outline-none">
+                        <i class="fa-solid fa-magnifying-glass text-gray-500"></i>
+                    </button>
+                </div>
+            </div>
         </nav>
+        <div class="grid grid-cols-2 items-center">
+            <div class="relative pl-80 p-5">
+                <img class="absolute w-[419px] h-auto -translate-y-50 z-10" src="./img/dog.png" alt="imagem de cão">
+                <img class="w-[419px] h-auto z-0" src="./img/img-header.png" alt="">
+            </div>
+            <div class="justify-center pr-100 top-[20px] w-[710px] h-[710px] translate-y-40">
+                <h1 class="font-bold font-poppins text-[36px] mb-4">Everybody needs a friend in Life.</h1>
+                <p class="mb-10 font-poppins text-[16px]">The Corgi is intelligent, quick and curious. It is a kind, adventurous breed which shows a large measure of independence. They are good with children and normally kind with strangers.</p>
+                <button class="bg-amber-600 p-6 h-[40px] w-[120px] rounded-[15px] hover:bg-amber-800 transition-transform duration-800 text-white text-lg justify-center flex items-center">Buy me</button>
+            </div>
+            
+        </div>
     </header>
     
 </body>
