@@ -1,8 +1,6 @@
-main{
-    background-color: bisque;
-    display: flex;
-    justify-content: space-around;
-    border-radius: 1px;
+section-blog pag{
+
+    
 }
 
 
@@ -10,9 +8,34 @@ main{
 
 
 
-.h2 {
-    justify-content: center;
-    }
+
+section-newsleeter{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1px;
+}
+
+.card{
+    text-align: center;
+    margin: ;
+}
+
+.card1{
+    justify-content: flex-start;
+    padding: auto;
+}
+
+.card2{
+    justify-content: flex-end;
+    padding: ;
+
+}
+
+
+
+
+
 
 
 
