@@ -18,12 +18,12 @@
             <!-- Logo e Nome -->
             <div class="flex items-center gap-3">
                 <img class="w-[25px] h-[25px] hover:scale-150 transition-transform duration-600" src="./img/fxemoji_dog.jpg" alt="logo">
-                <p class="text-sm font-bold font-poppins">Pawstore</p>
+                <p class="text-sm font-bold font-poppins text-sm">Pawstore</p>
             </div>
 
             <!-- Links de Navegação e Barra de Pesquisa -->
             <div class="flex items-center gap-10 pr-40">
-                <ul class="flex gap-10">
+                <ul class="flex gap-10 text-lg">
                     <li><a href="#" class="font-bold hover:border-b-4 hover:border-amber-600 transition-all duration-500">Home</a></li>
                     <li><a href="#" class="hover:border-b-4 hover:border-amber-600 transition-all duration-500">Breeds</a></li>
                     <li><a href="#" class="hover:border-b-4 hover:border-amber-600 transition-all duration-500">Accessories</a></li>
@@ -38,19 +38,28 @@
                 </div>
             </div>
         </nav>
-        <div class="grid grid-cols-2 items-center">
-            <div class="relative pl-80 p-5">
-                <img class="absolute w-[419px] h-auto -translate-y-50 z-10" src="./img/dog.png" alt="imagem de cão">
-                <img class="w-[419px] h-auto z-0" src="./img/img-header.png" alt="">
+        <div class="grid grid-cols-2 items-center gap-[400px]">
+            <div style="height: 100%;" class="relative pl-80 p-5">
+                <img class="absolute w-[420px] h-auto -translate-y-50 z-10 py-40 px-1" src="./img/dog.png" alt="imagem de cão">
+                <img class="absolute w-[420px] h-auto z-0 translate-x-0 py-40" src="./img/img-header.png" alt="">
             </div>
-            <div class="justify-center pr-100 top-[20px] w-[710px] h-[710px] translate-y-40">
+            <div class="justify-center pr-100 top-[20px] w-[710px] h-[710px] translate-y-20 py-30">
                 <h1 class="font-bold font-poppins text-[36px] mb-4">Everybody needs a friend in Life.</h1>
                 <p class="mb-10 font-poppins text-[16px]">The Corgi is intelligent, quick and curious. It is a kind, adventurous breed which shows a large measure of independence. They are good with children and normally kind with strangers.</p>
                 <button class="bg-amber-600 p-6 h-[40px] w-[120px] rounded-[15px] hover:bg-amber-800 transition-transform duration-800 text-white text-lg justify-center flex items-center">Buy me</button>
             </div>
-            
         </div>
-    </header>
-    
+        <div class="absolute bottom-4 right-4 flex gap-4">
+            <a href="https://www.facebook.com" target="_blank" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">
+                <i class="fa-brands fa-facebook fa-2x"></i>
+            </a>
+            <a href="https://www.youtube.com" target="_blank" class="text-gray-600 hover:text-red-600 transition-colors duration-300">
+                <i class="fa-brands fa-youtube fa-2x"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="text-gray-600 hover:text-pink-600 transition-colors duration-300">
+                <i class="fa-brands fa-instagram fa-2x"></i>
+            </a>
+        </div>
+    </header>    
 </body>
 </html>
