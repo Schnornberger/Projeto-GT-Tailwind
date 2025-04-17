@@ -1,4 +1,16 @@
-h1 {
+main{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1px;
+}
+
+
+
+
+
+
+.h2 {
     justify-content: center;
     }
 
@@ -7,6 +19,6 @@ h1 {
 
 
 
-    background-color: bisque;
-    border-radius: 1px;
+    
+    
 }
