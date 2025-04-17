@@ -1,0 +1,30 @@
+section {/* Estilo para a seção */
+    background-color:  #FFF0D9;/* Cor de fundo da seção */
+    border-radius: 10%;/* Bordas arredondadas da seção */
+    display: flex; /* Define o layout como flexível */
+    justify-content:space-around; /* Alinha os itens horizontalmente com espaço ao redor */
+    align-items: center; /* Alinha os itens no centro verticalmente */
+    margin: 1%;/* Adiciona uma margem de 1% ao redor da seção */
+    padding: 20px;/* Adiciona preenchimento interno à seção */
+
+}/* Estilo para o título da seção */
+
+.img{ /* Estilo para a imagem */
+    padding-left: 0; /* Remove o preenchimento à esquerda da imagem */
+}/* Estilo para o título da seção */
+
+button {/* Estilo para o botão */
+    margin-left: 10px; /* Adiciona um espaçamento à esquerda do botão */
+    padding: 20px; /* Adiciona preenchimento interno ao botão */
+    text-align: center;/* Alinha o texto no centro do botão */
+    background-color: #FFB84D; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border-radius: 15px; /* Bordas arredondadas do botão */
+    box-sizing: border-box; /* Inclui o preenchimento e a borda no tamanho total do botão */
+   
+}
+
+input {/* Estilo para o campo de entrada */
+    margin-right: 20px; /* Adiciona um espaçamento à direita do input */
+    margin-bottom: 10px; /* Adiciona um espaçamento abaixo do input */
+}
