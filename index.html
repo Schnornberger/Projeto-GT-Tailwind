@@ -5,12 +5,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     
-
 </head>
 
 <body>
+    <header class="bg-amber-50 top-[47px]">
+        <nav class="flex items-center justify-between p-8 pl-29">
+            <!-- Logo e Nome -->
+            <div class="flex items-center gap-3">
+                <img class="w-[25px] h-[25px] hover:scale-150 transition-transform duration-600" src="./img/fxemoji_dog.jpg" alt="logo">
+                <p class="text-sm font-bold font-poppins text-sm">Pawstore</p>
+            </div>
+
+            <!-- Links de Navegação e Barra de Pesquisa -->
+            <div class="flex items-center gap-10 pr-40">
+                <ul class="flex gap-10 text-lg">
+                    <li><a href="#" class="hover:border-b-4 hover:border-amber-600 transition-all duration-500 font-bold inline-block">Home</a></li>
+                    <li><a href="#" class="hover:border-b-4 hover:border-amber-600 transition-all duration-500 inline-block">Breeds</a></li>
+                    <li><a href="#" class="hover:border-b-4 hover:border-amber-600 transition-all duration-500 inline-block">Accessories</a></li>
+                    <li><a href="#" class="hover:border-b-4 hover:border-amber-600 transition-all duration-500 inline-block">Blog</a></li>
+                    <li><a href="#" class="hover:border-b-4 hover:border-amber-600 transition-all duration-500 inline-block">Contact</a></li>
+                </ul>
+                <div class="relative flex items-center">
+                    <input type="text" class="bg-white w-[276px] h-[50px] pr-10 pl-3 rounded-[20px]" placeholder="Search for pets...">
+                    <button class="absolute inset-y-0 right-0 flex items-center pr-3 focus:outline-none">
+                        <i class="fa-solid fa-magnifying-glass text-gray-500"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <div class="grid grid-cols-2 items-center">
+            <div style="height: 100%;" class="relative pl-[80px] p-[5px]">
+                <img class="absolute w-[420px] h-auto -translate-y-50 z-10 py-40 px-1" src="./img/dog.png" alt="imagem de cão">
+                <img class="absolute w-[420px] h-auto z-0 translate-x-0 py-40" src="./img/img-header.png" alt="">
+            </div>
+            <div class="justify-center pr-100 top-[20px] w-[710px] h-[710px] translate-y-20 py-30">
+                <h1 class="font-bold font-poppins text-[36px] mb-4">Everybody needs a friend in Life.</h1>
+                <p class="mb-10 font-poppins text-[16px]">The Corgi is intelligent, quick and curious. It is a kind, adventurous breed which shows a large measure of independence. They are good with children and normally kind with strangers.</p>
+                <button class="bg-amber-600 p-6 h-[40px] w-[120px] rounded-[15px] hover:bg-amber-800 transition-transform duration-800 text-white text-lg justify-center flex items-center">Buy me</button>
+            </div>
+        </div>
+        <div class="absolute bottom-4 right-4 flex gap-4">
+            <a href="https://www.facebook.com" target="_blank" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">
+                <i class="fa-brands fa-facebook fa-2x"></i>
+            </a>
+            <a href="https://www.youtube.com" target="_blank" class="text-gray-600 hover:text-red-600 transition-colors duration-300">
+                <i class="fa-brands fa-youtube fa-2x"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="text-gray-600 hover:text-pink-600 transition-colors duration-300">
+                <i class="fa-brands fa-instagram fa-2x"></i>
+            </a>
+        </div>
+    </header>    
 
     <section>
         <h1>Dog Breed</h1>
@@ -112,69 +165,6 @@
 
     </section>
     </section>
-
-    <body>
-
     </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<<<<<<< HEAD <section>
-    <h1>Blog Section</h1>
-    <h4>Desctiprion of blog</h4>
-    <div>
-        <div><img src="" alt=""></div>
-        <div><img src="" alt=""></div>
-        <div><img src="" alt=""></div>
-        <div><img src="" alt=""></div>
-    </div>
-    </section>
-    <section>
-        <h1>Get Pawsome News!</h1>
-        <p>Exclusive training tips, ticks, product deals and more.</p>
-        <input type="email">
-        <button></button>
-
-    </section>
-
-    =======
-
-
-
-
-
-
-
-
-    >>>>>>> 0722c96b6bcdaaa56b6a664847b04b8b8959512d
